@@ -1,8 +1,14 @@
 title: Frustrated Citizen
 description: A place for my thoughts and writings.
+baseurl: "/frustratedcitizen"
 remote_theme: daattali/beautiful-jekyll
 plugins:
   - jekyll-remote-theme
 navbar-links:
   About: "/about/"
   Contact: "/contact/"
+defaults:
+  - scope:
+      path: ""
+    values:
+      head-extra: custom-head.html
