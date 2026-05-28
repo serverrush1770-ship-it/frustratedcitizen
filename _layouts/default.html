@@ -17,7 +17,10 @@
           <h1 style="margin: 0;">{{ site.title | default: site.github.repository_name }}</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-
+<nav style="margin-top: 15px; font-size: 1.1em;">
+  <a href="{{ '/about/' | relative_url }}" style="margin-right: 20px; color: #b58900; text-decoration: none;">About</a>
+  <a href="{{ '/contact/' | relative_url }}" style="color: #b58900; text-decoration: none;">Contact</a>
+</nav>
         <section id="downloads">
           {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
