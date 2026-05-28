@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<img src="{{ site.baseurl }}/7a0e659f-5156-4daa-b41c-dcf9f4e30f46.jfif" alt="Frustrated Citizen Logo" width="200">
+
 
 # Welcome to Frustrated Citizen
 
