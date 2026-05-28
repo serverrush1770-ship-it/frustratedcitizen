@@ -2,7 +2,7 @@
 layout: home
 title: Frustrated Citizen
 subtitle: Questioning broken systems and explaining reality.
-header-img: "https://serverrush1770-ship-it.github.io/frustratedcitizen/7a0e659f-5156-4daa-b41c-dcf9f4e30f46.jfif"
+cover-img: "https://serverrush1770-ship-it.github.io/frustratedcitizen/7a0e659f-5156-4daa-b41c-dcf9f4e30f46.jfif"
 ---
 
 
