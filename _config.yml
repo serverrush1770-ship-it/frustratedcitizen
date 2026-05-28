@@ -1,5 +1,6 @@
 title: Frustrated Citizen
 description: A place for my thoughts and writings.
-remote_theme: iwiedenm/jekyll-theme-massively
+remote_theme: daattali/beautiful-jekyll
 plugins:
   - jekyll-remote-theme
+  
