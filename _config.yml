@@ -1,12 +1,15 @@
 title: Frustrated Citizen
+title-img: "/frustratedcitizen/favicon.png"
 description: A place for my thoughts and writings.
 baseurl: "/frustratedcitizen"
 remote_theme: daattali/beautiful-jekyll
 plugins:
   - jekyll-remote-theme
 navbar-links:
+  Economy & Markets: "#"
+  Education & Careers: "#"
+  Public Systems: "#"
   About: "/about/"
-  Contact: "/contact/"
 defaults:
   - scope:
       path: ""
