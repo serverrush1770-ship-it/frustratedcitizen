@@ -2,43 +2,34 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,800;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 
 <style>
-  /* 1. The Body Text (Clean & Modern) */
+  /* 1. The Body Text (Clean & Readable) */
   body, p, li {
     font-family: 'Inter', sans-serif !important;
-    color: #333333; /* A softer charcoal instead of harsh pure black */
+    color: #222222; 
     line-height: 1.7;
   }
   
-  /* 2. The Headings (Journalistic & Bold) */
+  /* 2. The Headings (Heavy, Modern, Aggressive) */
   h1, h2, h3, h4, h5, h6, .post-title, .navbar-brand {
-    font-family: 'Playfair Display', serif !important;
+    font-family: 'Montserrat', sans-serif !important;
     color: #111111;
     font-weight: 800;
     letter-spacing: -0.5px;
   }
 
-  /* 3. The Accent Color (Editorial Dark Red) */
-  a {
-    color: #9e1b1b; 
-    transition: color 0.2s ease-in-out;
-  }
-  
-  a:hover {
-    color: #5c0f0f;
-    text-decoration: none;
-  }
+  /* 3. The Links (Clean Black/Gray) */
+  a { color: #111111; font-weight: 600; transition: color 0.2s; }
+  a:hover { color: #666666; text-decoration: none; }
 
-  /* Keep Top Navigation Menu neutral until hovered */
+  /* Top Navigation */
   .navbar-nav > li > a {
-    color: #444444 !important;
-    font-family: 'Inter', sans-serif !important;
-    font-weight: 600;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222 !important;
   }
-  
-  .navbar-nav > li > a:hover {
-    color: #9e1b1b !important;
-  }
+  .navbar-nav > li > a:hover { color: #666666 !important; }
 </style>
