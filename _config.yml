@@ -1,5 +1,5 @@
 title: Frustrated Citizen
-title-img: "/frustratedcitizen/favicon.png"
+title-img: "https://serverrush1770-ship-it.github.io/frustratedcitizen/favicon.png"
 description: A place for my thoughts and writings.
 baseurl: "/frustratedcitizen"
 remote_theme: daattali/beautiful-jekyll
@@ -10,6 +10,7 @@ navbar-links:
   Education & Careers: "#"
   Public Systems: "#"
   About: "/about/"
+  Contact: "/contact/"
 defaults:
   - scope:
       path: ""
