@@ -6,6 +6,9 @@ thumbnail-img: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=8
 tags: [Education]
 ---
 
+![Academic Pressure](https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1000&auto=format&fit=crop)
+<br>
+
 Every year, millions of Indian students are told the exact same thing: *“Work hard now, clear the exam, and your future will be secure.”*
 
 But what happens when the system itself betrays them?
