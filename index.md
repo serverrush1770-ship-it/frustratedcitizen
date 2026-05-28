@@ -10,65 +10,52 @@ cover-img: "https://serverrush1770-ship-it.github.io/frustratedcitizen/7a0e659f-
 <p style="font-size: 1.25rem; text-align: center; max-width: 800px; margin: 0 auto;">A platform that questions systems, explains reality, and talks about the issues ordinary people face every day.</p>
 
 <style>
-  /* Modern Topic Cards Styling */
-  .topics {
-    padding: 40px 0px 50px 0px;
-  }
-  .card-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-  }
-  .card {
-    background: white;
-    padding: 25px;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-    border-top: 4px solid #333; 
-    text-align: center;
-  }
-  .card-icon {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-  }
-  .card h3 {
-    margin-top: 0;
-    font-size: 1.2rem;
-    color: #111;
-  }
-  .card p {
-    font-size: 0.95rem;
-    color: #555;
-    margin-bottom: 0;
-  }
+  .topics { padding: 40px 0px 50px 0px; }
+  .card-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+  .card { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-top: 4px solid #333; text-align: center; height: 100%; }
+  .card-icon { font-size: 2.5rem; margin-bottom: 10px; }
+  .card h3 { margin-top: 0; font-size: 1.2rem; color: #111; }
+  .card p { font-size: 0.95rem; color: #555; margin-bottom: 0; }
+  
+  /* This makes the whole card clickable and adds a hover animation */
+  .card-link { text-decoration: none !important; color: inherit !important; display: block; transition: transform 0.2s; }
+  .card-link:hover { transform: translateY(-5px); }
 </style>
 
 <section class="topics">
   <div class="card-container">
     
-    <div class="card">
-      <div class="card-icon">📰</div>
-      <h3>Current Affairs</h3>
-      <p>Breaking down important news and public policies.</p>
-    </div>
+    <a href="/frustratedcitizen/current-affairs" class="card-link">
+      <div class="card">
+        <div class="card-icon">📰</div>
+        <h3>Current Affairs</h3>
+        <p>Breaking down important news and public policies.</p>
+      </div>
+    </a>
     
-    <div class="card">
-      <div class="card-icon">🤖</div>
-      <h3>Artificial Intelligence</h3>
-      <p>Understanding how AI is changing society and jobs.</p>
-    </div>
+    <a href="/frustratedcitizen/ai" class="card-link">
+      <div class="card">
+        <div class="card-icon">🤖</div>
+        <h3>Artificial Intelligence</h3>
+        <p>Understanding how AI is changing society and jobs.</p>
+      </div>
+    </a>
     
-    <div class="card">
-      <div class="card-icon">📉</div>
-      <h3>Economy & Markets</h3>
-      <p>Simple explanations of economic issues affecting citizens.</p>
-    </div>
+    <a href="/frustratedcitizen/economy" class="card-link">
+      <div class="card">
+        <div class="card-icon">📉</div>
+        <h3>Economy & Markets</h3>
+        <p>Simple explanations of economic issues affecting citizens.</p>
+      </div>
+    </a>
     
-    <div class="card">
-      <div class="card-icon">🎓</div>
-      <h3>Education</h3>
-      <p>Discussing student struggles and shifting systems.</p>
-    </div>
+    <a href="/frustratedcitizen/education" class="card-link">
+      <div class="card">
+        <div class="card-icon">🎓</div>
+        <h3>Education</h3>
+        <p>Discussing student struggles and shifting systems.</p>
+      </div>
+    </a>
 
   </div>
 </section>
