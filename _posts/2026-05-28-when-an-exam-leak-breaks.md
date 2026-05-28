@@ -2,6 +2,7 @@
 layout: post
 title: "When an Exam Leak Breaks More Than Just an Exam"
 subtitle: "The NEET-UG controversy exposes a system that demands perfection from students while failing at basic fairness."
+thumbnail-img: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1000&auto=format&fit=crop"
 tags: [Education]
 ---
 
