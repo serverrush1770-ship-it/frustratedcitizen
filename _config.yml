@@ -3,4 +3,6 @@ description: A place for my thoughts and writings.
 remote_theme: daattali/beautiful-jekyll
 plugins:
   - jekyll-remote-theme
-  
+navbar-links:
+  About: "/about/"
+  Contact: "/contact/"
