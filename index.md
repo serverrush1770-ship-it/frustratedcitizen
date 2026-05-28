@@ -66,11 +66,13 @@ cover-img: "https://serverrush1770-ship-it.github.io/frustratedcitizen/7a0e659f-
     
     <div class="card">
       <div class="card-icon">🎓</div>
-      <h3>Education Crisis</h3>
+      <h3>Education</h3>
       <p>Discussing student struggles and shifting systems.</p>
     </div>
 
   </div>
 </section>
 
-<hr>
+<br><br>
+<h2 style="text-align: center; border-bottom: 2px solid #333; padding-bottom: 10px; max-width: 300px; margin: 0 auto;">Latest Articles</h2>
+<br>
